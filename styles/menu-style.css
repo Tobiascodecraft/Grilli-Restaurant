@@ -1,0 +1,221 @@
+
+  .navbar-nav{
+    margin-right: 50px;
+  }
+
+  body{
+    background-color: rgb(12, 12, 12);
+  }
+  
+  .cartQuantity{
+    background-color: rgb(247, 232, 179);
+    color: black;
+    font-weight: 550;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    margin-left: 7%;
+  
+    width: 130px;
+    height: 45px;
+    border-radius: 0px;
+    border: 2px solid rgb(247, 232, 179);
+
+    transition: 0.3s;
+  }
+  
+  .cartQuantity:hover{
+    background-color: transparent;
+    color: rgb(247, 232, 179);
+    cursor: pointer;
+    border: 2px solid rgb(247, 232, 179);
+  }
+  
+  .btn-register{
+    padding-left: 3%;
+  }
+
+  .btn-register1{
+    padding-left: 3%;
+  }
+
+  .displayDeliveryTime{
+    padding-left: 3%;
+  }
+  
+  .nav-link{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+  
+    transition: 0.3s;
+  }
+  .center-text{
+    text-align: center;
+  }
+  
+  .nav-link:hover{
+    color: rgb(247, 232, 179);
+  }
+  
+  
+  .icon-header{
+    font-size: 50px;
+    color: red;
+      
+    position: relative;
+    top: -5px;
+    margin-left: 50px;
+  }
+  
+  #link-book-car{
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .navbar-toggler-icon{
+    color: white;
+  }
+
+@media (min-width:500px) {
+  h1{
+    color: white;
+    margin-top: 12%;
+    text-align: center;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+}
+
+@media (max-width:500px) {
+ h1{
+  color: white;
+  margin-top: 25%;
+  text-align: center;
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+}
+
+.btn-container-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 1%;
+}
+
+#btn-filter{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(247, 232, 179);
+    background-color: transparent;
+    color: rgb(247, 232, 179);
+
+
+    font-size: 28px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#btn-filter:hover{
+    color: black;
+    background-color: rgb(247, 232, 179);
+}
+
+@media (min-width:500px) {
+  .product-container-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+}
+
+@media (max-width:830px) {
+  .product-container-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+  }
+}
+
+@media (max-width:500px) {
+  .product-container-main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+  }
+}
+
+.container-food-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 5%;
+}
+
+#buy-food-btn{
+  margin-top: 1%;
+  width: 190px;
+  height: 45px;
+  color: rgb(247, 232, 179);
+  border: 2px solid rgb(247, 232, 179);
+  background-color: transparent;
+
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#buy-food-btn:hover{
+  background-color: rgb(247, 232, 179);
+  color: black;
+}
+
+.container-food-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 5%;
+  gap: 20px;
+}
+
+#food-name-text{
+  font-size: 21px;
+  font-weight: 550;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seasonal{
+  color: black;
+  background-color: rgb(247, 232, 179);
+  font-size: 18px;
+  font-weight: 450;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#span-price-menu{
+  font-size: 28px;
+  font-weight: 550;
+  color: rgb(247, 232, 179);
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 1%;
+}
+
+#section-products{
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+#food-image{
+  width: 120px;
+  height: 95px;
+  border-radius: 20px;
+}

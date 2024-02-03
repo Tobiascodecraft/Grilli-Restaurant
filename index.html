@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilli</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="https://kit.fontawesome.com/cce6747441.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="./styles/main-style.css">
+
+    <script defer src="./scripts/app.js"></script>
+    <script src="./scripts/navbar.js"></script>
+
+</head>
+<body>
+
+  <section class="section-header">
+    <nav class="navbar navbar-expand-lg bg-black justify-content-center fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <span class=" icon-header">
+                <img src="./images/indian-logo.svg">
+            </span>
+        </a>
+        <button   class="navbar-toggler  bg-black" type="button"  data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse nav-center justify-content-center" id="mynavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+             <a onclick="scrollToSectionHome()" class="nav-link underline-animation">Home</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="scrollToSectionRoyalty()" class="nav-link underline-animation">Menus</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="scrollToSectionAbout()" class="nav-link underline-animation">About us</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="scrollToSectionStrength()" class="nav-link underline-animation">Our strength</a>
+            </li>
+            <li class="nav-item">
+              <a onclick="scrollToSectionContact()"  class="nav-link underline-animation">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-register" type="button">Find a table</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+        <p id="header-text-yellow">AMAZING & TRADITIONAl</p>
+        <h1>Flavors Inspired by <br>
+          the Seasons</h1>
+        <p id="header-text-under">Come with family & feel the joy of mouthwatering food</p>
+        <a href="Menu.html" id="view-menu-btn">View our menu</a> 
+
+        <div class="container-header-btn">
+          <div class="btn-wrapper">
+            <button id="book-table-btn-header">
+                <img src="./images/table-icon.png">
+            BOOK A TABLE</button>
+          </div>
+        </div>
+  </section>
+
+
+  <section id="section-flavour-royalty">
+      <div class="container-flavour-text">
+        <p id="flavours-section-header-text">FLAVORS FOR ROYALTY</p>
+        <h3>We Offer Top Notch</h3>
+        <br>
+        <p id="top-notch-tetx">Indulge your senses in a culinary journey like 
+           no other at <span id="span-yellow">Grilli</span>.<br>
+           Our chefs meticulously craft each 
+          dish, blending <br>flavors, textures, and cultural 
+          influences to<br> create a dining experience that<br> is truly exceptional.</p>
+      </div>
+
+  </section>
+
+  <section id="section-flavour-royalty-cards">
+    <div class="menus-container-main">
+      <div class="card-menu logo hidden">
+        <div class="zoom-container">
+          <img class="img" src="./images/breakfast.jpeg">
+        </div>
+       <p id="menu-text">Breakfast</p>
+       <a href="Menu.html" class="underline-animation" id="view-menu-text">View menu</a>
+      </div>
+
+      <div class="card-menu logo hidden">
+        <div class="zoom-container">
+        <img class="move-down img" src="./images/appetizers.jpeg">
+        </div>
+        <p id="menu-text">Appetizers</p>
+        <a href="Menu.html" class="underline-animation" id="view-menu-text">View menu</a>
+      </div>
+
+      <div class="card-menu logo hidden">
+       <div class="zoom-container">
+        <img class="img" src="./images/drinks.jpeg">
+       </div>
+       <p id="menu-text">Drinks</p>
+       <a href="Menu.html" class="underline-animation" id="view-menu-text">View menu</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="story-section">
+      <div class="container-align-left">
+        <div class="round-text-container">
+          <p id="since">Since <br> <span id="year-text">1950</span></p>
+        </div>
+    </div>
+    <div class="story-container-main">
+      <div class="card-story">
+       <p id="flavours-section-header-text">Our Story</p>
+       <h3>Every Fla vor Tells a <br> Story</h3>
+       <br>
+       <p id="story-text">The restaurant's warm ambiance<br> and welcoming atmosphere<br>
+            have made it a beloved gathering place <br>
+            for families, friends, and fellow food enthusiasts.<br>
+            From intimate dinners to joyous celebrations,<br>
+            our space has witnessed<br>
+            countless moments of laughter,<br>
+            love, and shared meals that transcend<br>
+            mere nourishment.</p>
+          <br>
+          <p id="call-text">Book Trough Call</p>
+          <p id="number-call">+49 123 4567</p>
+          <div class="btn-container">
+          <button class="sweep-btn" id="read-more-btn">READ MORE</button>
+          </div>
+     </div>
+     <img src="./images/story-image-main.jpeg">
+    </div>
+  </section>
+
+
+  <section id="lobster-tortwllni-section">
+    <div class="container-main-lobster">
+      <img id="special-dinner-img" src="./images/special-dish-banner.jpg">
+      <img id="moving-icon-img" src="images/moving-icon.png">
+      <div class="container-main-lobster-text">
+        <P id="lobster-text">SPECIAL DISH</P>
+        <h3>Lobster Tortellini</h3>
+        <p id="dish-description">Indulge in the exquisite 
+          flavors of our Lobster
+           Tortellini, a culinary masterpiece that
+           brings the bounty of the sea to your plate.
+           Delicately handcrafted tortellini envelopes 
+           succulent lobster meat, creating a 
+          harmonious marriage of rich, briny goodness
+           and tender pasta.<br>Elevate your dining experience with 
+           this extraordinary creation,
+            where every mouthful transports you to a world of
+             culinary delight. </p>
+            <p id="price-special-dish">$40.00 <span id="span-yellow-price">$20.00</span></p>
+            <div class="btn-container-menu">
+             <a href="Menu.html" class="sweep-btn" id="menu-btn">View menu</a>
+            </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="delicious-menu-section">
+    <p id="special-selection-header-1">SPECIAL SELECTION</p>
+    <br>
+    <h3>Delicious Menu</h3>
+
+    <div class="container-menu-main">
+      <div class="container-menu-column-border">
+        <div class="container-food-row hidden delay">
+          <img src="./images//delicous-menu-images/greek-salad.png">
+          <p id="food-name-text">Greek Salad <span id="seasonal"> SEASONAL</span> <span id="span-price-menu"> $25.50</span></p>
+        </div>
+        <div class="container-food-row hidden delay">
+          <img src="./images//delicous-menu-images/butter-nut.png">
+          <p id="food-name-text">Butternut Pumpkin <span id="span-price-menu"> $10.00</span></p>
+        </div>
+        <div class="container-food-row hidden delay">
+          <img src="./images//delicous-menu-images/olivias-menu.png">
+          <p id="food-name-text">Olivas Rellenas <span id="span-price-menu"> $25.00</span></p>
+        </div>
+      </div>
+
+      <div class="container-menu-column">
+        <div class="container-food-row hidden delay">
+          <img src="./images//delicous-menu-images/lasagne-menu.png">
+          <p id="food-name-text">Lasagne <span id="span-price-menu"> $40.00</span></p>
+        </div>
+        <div class="container-food-row hidden delay">
+          <img src="./images//delicous-menu-images/wagyu-menu.png">
+          <p id="food-name-text">Tokusen Wagyu <span id="seasonal"> NEW</span> <span id="span-price-menu"> $39.00</span></p>
+        </div>
+        <div class="container-food-row hidden delay">
+          <img src="./images//delicous-menu-images/fish-menu.png">
+          <p id="food-name-text">Opu Fish <span id="span-price-menu"> $49.00</span></p>
+        </div>
+      </div>
+    </div>
+
+    <p id="special-selection-header-1">During winter daily from 7:00 pm to 9:00 pm</p>
+    <div class="btn-container-menu">
+     <a href="Menu.html" class="sweep-btn">View menu</a>
+    </div>
+  </section>
+
+
+  <section id="Testimonials-section">
+    <h2>I wanted to thank you for inviting me 
+      down  for that amazing dinner the other night.</h2>
+
+      <div class="container-row">
+       <p id="icon-container-box"><span class="material-symbols-outlined">
+        check_box_outline_blank
+        </span></p> 
+
+        <p id="icon-container-box"><span class="material-symbols-outlined">
+          check_box_outline_blank
+          </span></p> 
+
+        
+          <p id="icon-container-box"><span class="material-symbols-outlined">
+            check_box_outline_blank
+            </span></p> 
+          </div>
+
+      <div class="container-row">    
+       <img id="sam-img-round" src="./images/sam-img.jpeg">
+      </div>
+      <p id="cook-name-text">SAM JHONSON</p>
+
+
+      <div class="container-reservation-main">
+        <div class="container-reservation-column">
+          <h3>Online Reservation</h3>
+          <p id="dish-description">Booking request <span id="span-yellow">+88-123-123456</span> or fill
+            <br> out the order form</p>
+            <br>
+          <p id="dish-description">
+           <input id="input-1-big" type="text" placeholder="Your Name"></input>
+           <input id="input-1-big" type="text" placeholder="Phone Number"></input>
+          </p>
+          <p id="dish-description">
+            <input id="input-2" type="text" placeholder="Persons"></input>
+            <input id="input-2" type="date"></input>
+            <input id="input-2" type="time"></input>
+          </p>
+          <button id="reservation-btn">BOOK A TABLE</button>
+        </div>
+
+        <div class="container-reservation-column-contact">
+          <h3>Contact Us</h3>
+          <br>
+          <p id="dish-description"> Booking Request</p>
+          <span id="span-price-center">+88 123 45678</span>
+          <p id="icon-container-box"><span class="material-symbols-outlined">
+            check_box_outline_blank
+          </span></p> 
+          <br>
+          <p class="center-text" id="food-name-text">Location</p>
+          <p class="grey-text">Restaurant St, Delicious City,</p>
+          <p class="grey-text">London 9578, UK</p>
+          <br>
+          <p class="center-text" id="food-name-text">Lunch Time</p>
+          <p class="grey-text">Monday to Sunday</p>
+          <p class="grey-text">11.00 am - 2.30pm</p>
+          <br>
+          <p class="center-text" id="food-name-text">Dinner Time</p>
+          <p class="grey-text">Monday to Sunday</p>
+          <p class="grey-text">02.00 pm - 10.00pm</p>
+
+        </div>
+
+      </div>
+  </section>
+
+
+  <section id="strength-section">
+    <p id="cook-name-text">WHY CHOOSE US</p>
+    <br>
+    <h3>Our Strength</h3>
+    <div class="container-stregth-main">
+      <div class="card-strength">
+      <img id="strength-image" src="./images/strength-img/food.png">
+      <p id="menu-text">Hygienic Food</p>
+      <p id="card-description">
+        Indulge in a culinary experience where hygiene meets excellence at Grilli.
+        Committed to the highest standards of cleanliness and food safety.
+      </p>
+    </div>
+
+    <div class="card-strength">
+      <img id="strength-image" src="./images/strength-img/chefs.png">
+      <p id="menu-text"> Exellent Chefs</p>
+      <p id="card-description">
+        Talented, innovative, and passionate, our chefs bring a 
+        wealth of culinary expertise from around the globe. 
+        From sizzling grills to delicate desserts.
+
+      </p>
+    </div>
+
+    <div class="card-strength">
+      <img id="strength-image" src="./images/strength-img/party.png">
+      <p id="menu-text">Frequent Partys</p>
+      <p id="card-description">
+        Whether it's an intimate birthday party,
+         a lively corporate event
+        our dedicated team is here to turn your vision into a reality.
+      </p>
+    </div>
+
+    <div class="card-strength">
+      <img id="strength-image" src="./images/strength-img/environment.png">
+      <p id="menu-text">Our environment</p>
+      <p id="card-description"> 
+        Step into Grilli, where culinary 
+        excellence harmonizes with a commitment to the environment.
+      </p>
+    </div>
+   </div>
+  </section>
+
+
+  <section id="section-events">
+    <p id="cook-name-text">RECENT UPDATES</p>
+    <br>
+    <h3>Upcoming Event</h3>
+
+    <div class="container-stregth-main">
+      <div class="card-event">
+        <div class="zoom-container">
+         <img class="img" src="./images/event-1.jpg">
+        <p class="top-left" id="event-date">15/09/24</p>
+        <p class="centered-top" id="event-header">FOOD, FLAVOUR</p>
+        <P class="centered" id="event-text">Flavour so good you’ll try to eat with your eyes.</P>
+        </div>
+      </div>
+
+      <div class="card-event">
+        <div class="zoom-container">
+        <img class="img" src="./images/event-2.jpg">
+        <p class="top-left" id="event-date">08/09/24</p>
+        <p class="centered-top" id="event-header">HEALTHY FOOD</p>
+        <P class="centered" id="event-text">Flavour so good you’ll try to eat with your eyes.</P>
+        </div>
+      </div>
+
+      <div class="card-event">
+        <div class="zoom-container">
+        <img class="img" src="./images/event-3.jpg">
+        <p class="top-left" id="event-date">03/09/24</p>
+        <p class="centered-top" id="event-header">RECIPIE</p>
+        <P class="centered" id="event-text">Flavour so good you’ll try to eat with your eyes.</P>
+        </div>
+      </div>
+    </div>
+    <div class="btn-container">
+     <button id="btn-blog">VIEW OUR BLOG</button>
+    </div>
+  </section>
+
+
+  <section id="section-footer">
+    <div class="container-footer-main">
+      <div class="container-footer-column">
+        <button class="footer-btn-column underline-animation">HOME</button>
+        <br>
+        <button class="footer-btn-column underline-animation">MENUS</button>
+        <br>
+        <button class="footer-btn-column underline-animation">ABOUT US</button>
+        <br>
+        <button class="footer-btn-column underline-animation">OUR CHEFS</button>
+        <br>
+        <button class="footer-btn-column underline-animation">CONTACT</button>
+      </div>
+
+      <div class="container-footer-column-middle">
+        <img id="footer-logo" src="./images/indian-logo.svg">
+        <br>
+        <p id="footer-text">Restaurant St, Delicious City, London 9578, UK</p>
+        <p id="footer-text">booking@grilli.com</p>
+        <p id="footer-text">Booking Request: +80 123 45678</p>
+        <p id="footer-text">Opening Hours: 09:00am - 01:00pm</p>       
+      <div class="container-row">
+        <p id="icon-container-box"><span class="material-symbols-outlined">
+         check_box_outline_blank
+         </span></p> 
+ 
+         <p id="icon-container-box"><span class="material-symbols-outlined">
+           check_box_outline_blank
+           </span></p> 
+ 
+         
+           <p id="icon-container-box"><span class="material-symbols-outlined">
+             check_box_outline_blank
+             </span></p> 
+           </div>
+
+           <h5>Get News & Offers</h5>
+           <p id="footer-text">Subscribe us & Get <span id="span-yellow">25% Off.</span></p>  
+           <div class="container-close">
+           <input id="input-1-big" type="text" placeholder="E-Mail"></input>
+           <button id="subscribe-btn">SUBSCRIBE</button>
+           </div>
+      </div>
+
+      <div class="container-footer-column">
+        <button class="footer-btn-column underline-animation">FACEBOOK</button>
+        <br>
+        <button class="footer-btn-column underline-animation">INSTAGRAM</button>
+        <br>
+        <button class="footer-btn-column underline-animation">TWITTER</button>
+        <br>
+        <button class="footer-btn-column underline-animation">YOUTUBE</button>
+        <br>
+        <button class="footer-btn-column underline-animation">GOOGLE MAPS</button>
+      </div>
+    </div>
+  </section>
+
